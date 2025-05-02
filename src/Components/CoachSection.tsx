@@ -51,7 +51,7 @@ export default function CoachSection() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col item-center bg-white rounded-full">
+          <div className="flex flex-row md:flex-col item-center bg-white rounded-full">
               <button className="flex-1 p-3 flex justify-center items-center text-gray-500 hover:bg-gray-100">
                 <TfiReload />
               </button>
