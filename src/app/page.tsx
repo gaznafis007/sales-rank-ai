@@ -4,6 +4,8 @@ import FaqSection from "@/Components/FaqSection";
 import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
 import Navbar from "@/Components/Navbar";
+import Newsletter from "@/Components/Newsletter";
+import Testimonial from "@/Components/Testimonial";
 
 
 export default function Home() {
@@ -14,6 +16,8 @@ export default function Home() {
       <CoachSection/>
       <CoursesSection/>
       <FaqSection/>
+      <Testimonial/>
+      <Newsletter/>
       <Footer />
     </main>
   )
