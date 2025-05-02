@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/f
 
 export default function Footer() {
   return (
-    <footer className="py-16 px-6 md:px-16 lg:px-24 bg-gray-50">
+    <footer className="py-16 px-6 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-12">
           <div className="md:col-span-1">

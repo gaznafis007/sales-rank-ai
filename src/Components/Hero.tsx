@@ -6,7 +6,7 @@ import headerTwo from "@/assets/header-two.png";
 
 export default function Hero() {
   return (
-    <section className="py-16 px-6 md:px-16 lg:px-24 bg-white">
+    <section className="py-16 px-6 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl font-bold text-gray-800 leading-tight">
@@ -17,7 +17,7 @@ export default function Hero() {
             Sales Coach
           </h1>
 
-          <div className="bg-gray-50 p-6 rounded-lg max-w-md flex items-start gap-4">
+          <div className="p-6 rounded-lg max-w-md flex items-start gap-4">
             <div className="flex-shrink-0 mt-1">
               <Image
                 src={headerTwo}
@@ -67,7 +67,7 @@ export default function Hero() {
             />
           </div>
 
-          <div className="absolute top-2/3 bg-white p-4 rounded-lg shadow-md">
+          <div className="absolute top-2/3 p-4 rounded-lg bg-white shadow-md">
           <div className=" flex flex-row gap-4 justify-between md:w-[300px]">
             <h3 className="text-4xl font-bold text-blue-900">721+</h3>
             <h3 className="text-4xl font-bold text-blue-900">1000+</h3>

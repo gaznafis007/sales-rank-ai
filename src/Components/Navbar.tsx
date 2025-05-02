@@ -1,21 +1,15 @@
-import Image from "next/image"
 import Link from "next/link"
+import { ImStatsBars } from "react-icons/im";
 
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center py-4 px-6 md:px-16 lg:px-24 bg-white/80 backdrop-blur-sm">
+    <nav className="flex justify-between items-center py-4 px-6 md:px-16 lg:px-24 bg-transparent">
       <div className="flex items-center">
         <Link href="/" className="flex items-center gap-2">
-          <div className="relative w-8 h-8">
-            <Image
-              src="/placeholder.svg?height=32&width=32"
-              alt="SalesRank.AI Logo"
-              width={32}
-              height={32}
-              className="object-contain"
-            />
+          <div className="relative">
+            <ImStatsBars className="text-yellow-300 w-8 h-8"/>
           </div>
-          <span className="text-xl font-semibold text-gray-800">SalesRank.AI</span>
+          <p className="text-xl font-semibold text-gray-800">SalesRank.AI</p>
         </Link>
       </div>
 
