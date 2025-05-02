@@ -77,13 +77,6 @@ export default function TestimonialSection() {
             <div className="w-full flex flex-col md:flex-row justify-between items-center mt-8 md:mt-12">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gray-300 rounded-full overflow-hidden">
-                  <Image
-                    src={currentTestimonial.avatar || "/placeholder.svg"}
-                    alt={currentTestimonial.author}
-                    width={48}
-                    height={48}
-                    className="w-full h-full object-cover"
-                  />
                 </div>
                 <div>
                   <h4 className="font-medium">{currentTestimonial.author}</h4>
